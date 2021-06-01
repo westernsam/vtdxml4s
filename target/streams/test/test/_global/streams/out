@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.springer.link.shared.xml.VtdNodeSeqTest, org.scalatest.tools.Framework$$anon$1@2981bbca, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVtdNodeSeqTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32muse via pool[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- works in a pool[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should release the pool resources when failing to parse an invalid XML[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get attribute[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work work with A++'s Abstract[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get children[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sanitize title bug - use of label in map truncates nodeseq[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get attribute using \@[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- keywords bug - * text matches elems. Use nav.getTokenType(nextLoc) instead[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get label[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- elems should behave like queries[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- // gets content at different levels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- handles and ignores namespaces[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- handle processing instructions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return text of nodeseq and each node[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- supports xpath functions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- supports xpath in between \'s [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpayload[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provides byte array containing the xml element and all its content, including text and other sub-elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provides byte array containing selected sub-element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provides empty byte array when no element is selected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- provides byte array for the first element if more than one is selected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 688 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 20[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 20, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.springer.link.shared.xml.VtdNodeSeqTest[0m

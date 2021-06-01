@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="sams-work" name="com.springer.link.shared.xml.VtdNodeSeqTest" tests="20" errors="0" failures="0" skipped="0" time="2.503" timestamp="2021-06-01T09:21:47">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar clean +test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-04-20"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.10"/><property name="user.name" value="sam"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/sam/.cache/JNA/temp/jna9403253744060076961.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/sam/.sbt/0.13/java9-rt-ext-ubuntu_11_0_11"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/London"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="GB"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/sam"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/home/sam/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.11.0-7614-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib/i386-linux-gnu/i686/sse2:/usr/local/lib:/libx32:/lib32:/lib/i386-linux-gnu/sse2:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/sam/projects/vtd4scala"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.10"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="use via pool works in a pool" time="2.439">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="use via pool should release the pool resources when failing to parse an invalid XML" time="0.035">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should get attribute" time="0.002">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should work work with A++'s Abstract" time="0.007">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should get children" time="0.002">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="sanitize title bug - use of label in map truncates nodeseq" time="0.007">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should get attribute using \@" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="keywords bug - * text matches elems. Use nav.getTokenType(nextLoc) instead" time="0.002">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should get label" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="elems should behave like queries" time="0.003">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="// gets content at different levels" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="handles and ignores namespaces" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="handle processing instructions" time="0.002">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="should return text of nodeseq and each node" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="supports xpath functions" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="supports xpath in between \'s" time="0.001">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="payload provides byte array containing the xml element and all its content, including text and other sub-elements" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="payload provides byte array containing selected sub-element" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="payload provides empty byte array when no element is selected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="com.springer.link.shared.xml.VtdNodeSeqTest" name="payload provides byte array for the first element if more than one is selected" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
